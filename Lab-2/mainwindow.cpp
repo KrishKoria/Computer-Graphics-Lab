@@ -16,8 +16,8 @@ MainWindow::~MainWindow()
 
 void MainWindow::paintEvent(QPaintEvent* event){
     QPainter painter(this);
-    painter.scale(2.0, 2.0);
-    drawLineDDA(painter, 0, 0, 400, 300);
+    // painter.scale(2.0, 2.0);
+    drawLineDDA(painter, 500, 500, 100, 210);
 }
 
 void MainWindow::drawLineDDA(QPainter &painter, int x1, int y1, int x2, int y2){
